@@ -11,8 +11,6 @@ public class AppMain {
         System.out.println("Work");
         session.getTransaction().commit();
         session.close();
-
         HibernateUtil.shutdown();
-
     }
 }
